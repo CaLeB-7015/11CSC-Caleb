@@ -1,12 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
 
-  <link rel="icon" type="image/UW-icon" href="/images/UW.jpg">
+    <link rel="icon" type="image/jpg" href="images/UW.jpg">
 
 <style>
 
-  .footer {
+body{
+    margin:0;
+    font-family:"Lucida Console","Courier New",monospace;
+background-image:url("images/WWW.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+color:white;
+}
+
+/* Navigation */
+
+ul{
+list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#043259;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:16px 18px;
+text-decoration:none;
+}
+
+li a:hover{
+    background:black;
+}
+
+/* Headings */
+
+h1{
+    color:burlywood;
+text-align:center;
+margin-top:40px;
+}
+
+h2{
+    color:#ddb887;
+    text-align:center;
+    text-shadow:1px 1px 7px black;
+}
+
+p{
+    width:70%;
+margin:auto;
+text-align:center;
+font-size:18px;
+line-height:1.6;
+}
+
+/* Contact Form */
+
+.container{
+    width:60%;
+    margin:40px auto;
+    background:#446591;
+    padding:25px;
+border-radius:12px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+}
+
+input[type=text],
+select,
+textarea{
+width:100%;
+    padding:12px;
+    margin-top:6px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+textarea{
+    resize:vertical;
+}
+
+input[type=submit]{
+margin-top:20px;
+background:#043259;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+input[type=submit]:hover{
+    background:#021e36;
+}
+
+/* Footer */
+
+ .footer {
    position: fixed;
    left: 0;
    bottom: 0;
@@ -16,177 +122,59 @@
    text-align: center;
 }
 
-p{
-  border: 5px solid black;
-  border-radius: 8px;
-  padding: 5px;
-}
-
-h1{font-family: "Lucida Console", "Courier New", monospace;}
-
-h2{font-family: "Lucida Console", "Courier New", monospace;}
-
-p{font-family: "Lucida Console", "Courier New", monospace;}
-
-p{color: #ffffff
-}
-
-h2{color: #ddb887;}
-
-h1{color: burlywood}
-
-body {
-  background-image: url("images/WWW.jpg");
-}
-body{ background-size: 100%}
-
-h2{text-shadow: 1px 1px 7px rgba(0,0,0,1);}
-
-h2{
-  text-align: center;
-}
-
-h2 {
-  font-size: 35px;
-}
-
-p2{font-family: "Lucida Console", "Courier New", monospace;}
-
-p2{color: #ffffff
-}
-
-p2{
-  margin: 0px;
-}
-
-p2
-  font-size: 25px;
-}
-
-p2{
-  text-align: center;
-}
-
-p2{
-  margin: 18px;
-}
-
-p2{
-  font-size: 20px;
-}
-
-p{
-  margin: 18px;
-}
-
-p {
-  font-size: 20px;
-}
-
-p{
-  text-align: left;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #043259;
-}
-
-ul li {
-  float: left;
-}
-
-ul li a {
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 16px 14px;
-  text-decoration: none;
-}
-
-
-{background-image: url("images/bleh.jpg");}ul li a:hover {
-  background-color: #000000;
-}
-
-form {
-  border-radius: 5px;
-  background-color: #1d558a;
-  padding: 20px;
-}
-
-label {display: block;}
-
-input[type=text], select {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 100%;
-  background-color: #123c63;
-  color: white;
-  padding: 14px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #0b2640;
-}
-
-
 </style>
+
+</head>
+
 <body>
 
-<form action="/action_page.php">
-  <label for="fname">First Name</label>
-  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-  <label for="country">Country</label>
-  <select id="country" name="country">
-    <option value="new zealand">New Zealand</option>
-    <option value="australia">Australia</option>
-    <option value="usa">USA</option>
-  </select>
-
-  <input type="submit" value="Submit">
-</form>
-
-</body>
-
 <ul>
-  <li><a href="index.html" target="Home">Home</a></li>
-  <li><a href="index2.html" target="About">About</a></li>
-  <li><a href="index3.html" target="Solution">Solution</a></li>
-  <li><a href="index4.html" target="Contact">Contact</a></li>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="index2.html">About</a></li>
+ <li><a href="index3.html">Solution</a></li>
+ <li><a href="index4.html">Contact</a></li>
 </ul>
 
 <h1>Sea Level Rise</h1>
 
-<h2>Contact</h2>
+<h2>Contact Us</h2>
 
-<p>Have questions or feedback about sea level rise?
-You can also use the contact form below to send us a message.
-We would love to hear your thoughts and ideas about protecting our environment and addressing sea level rise.</p>
+<p>
+Have questions or feedback about sea level rise?
+Use the contact form below to send us a message.
+We would love to hear your ideas about protecting our environment and reducing the effects of sea level rise.
+</p>
 
-<div class="footer">
-  <p1>Footer</p1>
+<div class="container">
+
+<form action="thankyou.html">
+
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+
+<label for="country">Country</label>
+<select id="country">
+    <option>New Zealand</option>
+    <option>Australia</option>
+    <option>Canada</option>
+    <option>USA</option>
+</select>
+
+<label for="subject">Message</label>
+<textarea id="subject" rows="6" placeholder="Write something..."></textarea>
+
+<input type="submit" value="Submit">
+
+</form>
+
 </div>
 
+<div class="footer">
+  <p>Footer</p>
+</div>
 
+</body>
 </html>
-    <title>Contact</title>
